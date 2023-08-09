@@ -1,0 +1,37 @@
+ul,li{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+@media(max-width:1000px){
+    h1{
+        color: orange;
+        font-size: 6ems;
+    }
+}
+@media(max-width:500px){
+    h1{
+        color: red;
+        font-size: 4em;
+    }
+}
+@media(orientation:landscape){
+    body{
+        background-color: aquamarine;
+    }
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+ul{
+    border: 1px solid black;
+    display: flex;
+    /* justify-content: space-evenly;
+    max-width: 50%; */
+    flex-direction: row;
+}
+
+
+

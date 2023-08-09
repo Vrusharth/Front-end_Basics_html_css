@@ -1,0 +1,110 @@
+.start{
+    color: white;
+}
+.start:hover{
+    background-color: bisque;
+    color: black;
+}
+
+
+#search {
+    background-color: aquamarine;
+    color: blue;
+}
+#password{
+    background-color: yellow;
+    color: black;
+}
+
+
+.link:hover {
+   
+    background-color:rgb(171, 139, 171);
+
+}
+
+/* Content box  */
+
+section{
+    width: 500px;
+    height: 50px;
+    background-color: #b76574;
+    margin-left: 100px;
+}
+div{
+    width: 300px;
+    height: 200px;
+    background-color: (236,183,191);
+    text-align: center;
+    padding-left: 100px;
+    margin: 20px;
+}
+#one{
+    background-color:#ffd6ff;
+    border-width: 5px;
+    border-style: groove;
+    border-color: black;
+    margin-left: 100px;
+}
+img{
+    width: 25px;
+    height: 25px;
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+}
+#two{
+    background-color: #e7c6ff;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    border-bottom-right-radius: 2%;
+    border-top-right-radius: 2%;
+    margin-left: 100px;
+}
+#three{
+    background-color:#c8b6ff;
+    border-width: 5px;
+    border-color: #643030;
+    border-style:inset;
+    border-left-style: dotted;
+    border-top-right-radius: 2%;
+    margin-left: 100px;    
+}
+h1{
+    width: 350px;
+    height: 50px;
+    background-color:#80ed99;
+    padding: 50px;
+    
+}
+#starts{
+    padding: 20px 20px / 10px 10px;
+}
+#id{
+    padding-left: 2000px;
+}
+/* #Margins  */ 
+h1{
+    margin: 100px 100px 50px 150px;
+}
+
+/* Display Block and inline elements  */
+h2{
+    width: 350px;
+    height: 50px;
+    display: inline;
+    background-color: aquamarine;
+    border-width: 2px;
+    border-color: black;
+    border-style: dashed;}
+    
+span{
+    display: block;
+    background-color: rgb(94, 149, 181);
+    border: 1px;
+    display: none;
+}
+
+

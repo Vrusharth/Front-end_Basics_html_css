@@ -1,0 +1,43 @@
+div{
+    width: 50px;
+    height: 50px;
+    border:solid;
+    
+    background-color:#588157 ;
+    display: inline-block;
+    margin: 10px;
+}
+
+#mid{
+    background-color:#80ed99 ;
+}
+#static #mid{/* Element remains static */
+    position: sticky;
+}
+
+#relative #mid{/* Here we can offset the element from itys current position */
+    position: relative;
+    top: 30pxpx;
+    right: 10px;
+}
+
+#absolute{/*  this nearest ancestor of #absolute #mid  */
+    position: relative;
+}
+
+#absolute #mid {/* Hre the position depends on its nearest ancestor */
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+#fix #mid {
+    position: fixed;
+    top: 10px;
+    left: 290px;
+    width: 50px;
+    height: 50px;
+}
+
+
+

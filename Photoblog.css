@@ -1,0 +1,14 @@
+img{
+    width: 30%;
+    margin: 1.6%;
+    background: center/contain url(https://images.unsplash.com/photo-1617194530354-12ef4151d506?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDczfHhIeFlUTUhMZ09jfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=200&q=60),black;
+}
+body{
+    background-color: #082c35;
+}
+nav{
+    position: fixed;
+    margin: 2em;
+    color: #c43a3a;
+    box-shadow: inset;
+}

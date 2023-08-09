@@ -1,0 +1,25 @@
+#Container{
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    background-color:#64dfdf;
+    border: 3px black solid;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:center;
+    justify-content: flex-start;
+    justify-content:flex-end ;
+    justify-content: space-between;/* between the elements no corner space
+    justify-content: space-around; space at both ends and the elements  */
+    justify-content: space-evenly;/* equal space at ends and between the elements */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* align-items: flex-end; */ 
+}
+
+.div{
+    height: 50px;
+    width: 50px;
+    display:inherit;
+}

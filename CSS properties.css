@@ -1,0 +1,15 @@
+section{
+    width: 400px;
+    height: 400px;
+    background-color:rgb(88, 129, 87) ;
+}
+/* rgba stands for red green black and Alpha, Alpha denotes the transperancy rated between 0 to 1  */
+div{
+    width: 100px;
+    height: 100px;
+    background-color:rgba(73, 202, 228,0.3) ;
+
+}
+
+
+

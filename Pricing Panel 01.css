@@ -1,0 +1,102 @@
+
+.Panel{
+    width: 60%;
+    margin: 0 auto;
+    padding: 0;
+    border: 2px black solid;
+    display: flex;
+    flex-direction: row;
+    background-color:white ;
+    /* justify-content: space-evenly;
+    justify-content: center; */
+}
+body{
+    
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color:#60a9ff;
+
+
+}
+.one1 figcaption{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+    font-style: grey ;
+    color: grey;
+}
+.One1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+.One1 ul{
+    padding:0px;
+    list-style: none;
+}
+#one11{
+    padding: 10px 10px;
+    border-bottom: 1px black solid;
+    
+}
+
+.One1 img{
+    max-width: 100%;
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+
+.One2 img{
+    max-width: 100%;
+    width: 200px;
+    padding-bottom: 10px;
+}
+.One2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+.One2 ul{
+    list-style: none;
+    padding: opx;
+}
+#one22{
+    padding:  10px 10px;
+    border-bottom: 1px black solid;
+}
+
+.One3 img{
+    max-width: 100%;
+    width: 200px;
+    padding-bottom: 10px;
+}
+.One3{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+.One3{
+    list-style: none;
+    padding: 0px;
+}    
+#one33{
+    padding:10px 10px ;
+    border-bottom: 1px black solid;
+}
+.One3 li{
+    list-style: none;
+    padding: opx;
+}
+button{
+    border: 1px solid black;
+    border-radius:10px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #bbd0ff;
+    padding: 15px 20px;
+}

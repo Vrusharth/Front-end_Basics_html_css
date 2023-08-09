@@ -1,0 +1,55 @@
+#start{
+    width: 90%;
+    height: 15em;
+    margin: 0 auto;
+    border: 2px black solid;
+    background-color:#003566;
+    display: flex;
+    flex-direction:row;
+    justify-content:center; /* works in horizantal for row and vertical for column  */
+    align-content: start;
+    align-items:start;
+    flex-wrap: wrap;
+    flex-basis: 100px;
+
+    
+
+}
+#start div{
+    width: 50px;
+    height: 50px;
+    font-size: 2em;
+    text-align: center;
+    /* Takes all of additional space  */
+   
+   flex-basis: 100px;/* BAsic/initial size of the content */
+    
+   
+}
+div:nth-of-type(1){
+    flex-grow: 4;
+    flex-shrink: 2;
+}
+div:nth-of-type(3){
+    flex-grow: 2;
+    flex-shrink: 8;
+}
+main {
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 3px black solid;
+    display: flex;
+    
+
+}/* Flex shorthand: flex:1 ; flex-grow*/
+main .sidebar{
+
+    background-color: #2a9d8f;
+    flex: 1;
+}
+main .Maincontent{
+    background-color: #fefae0;
+    flex: 1 1 100px;
+}
